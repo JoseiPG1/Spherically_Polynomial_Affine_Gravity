@@ -36,8 +36,37 @@
 \section{Polynomial Affine Gravity}
 \label{sec:PAG}
 
+The Polynomial Affine Gravity uses the affine connection to mediated 
+gravitational interactions, instead of the metric tensor. To build 
+the action, we decompose the affine connection into its irreducible
+fields
+\begin{equation}
+\begin{aligned}
+    \label{affine_connection}
+    \hat{\Gamma}_{\alpha}{}^{\beta}{}_{\gamma} & = \hat{\Gamma}_{(\alpha}{}^{\beta}{}_{\gamma)} +  \hat{\Gamma}_{[\alpha}{}^{\beta}{}_{\gamma]},  \\
+    & = \ctG{\alpha}{\beta}{\gamma} + \B{\alpha}{\beta}{\gamma} + \delta^{\beta}_{[\gamma}\A{\alpha]},
+\end{aligned}
+\end{equation}
+where the first term $\Gamma$ stands for the symmetric part and 
+$\mathcal{A}$, $\mathcal{B}$ fields are related to the skew symmetric
+part of the affine connection. 
 
-The most general action (up to topological invariants and boundary terms) in four dimensions is given by
+Additionally, is necessary to introduce a volume form without
+the use of the metric tensor. In order to achieve this, we used
+the volume element defined as $\mathrm{d}V^{\alpha \beta \gamma \delta} 
+= \mathrm{d}x^\alpha \wedge \mathrm{d}x^\beta \wedge \mathrm{d}x^\gamma
+\wedge \mathrm{d}x^\delta$, which is completely antisymmetric.
+
+Moreover, we want to preserve the invariance under diffeomorphism, 
+which is why the symmetric part of the affine connection, goes 
+indirectly through the covariant derivative $\nabla^\Gamma$. 
+
+The action is built up using a sort of \textit{dimensional analysis}
+technique. This strategy allows us to generate every scalar density
+composed by powers of the irreducible fields of the affine connection.
+
+The most general action (up to topological invariants and boundary terms) 
+in four dimensions is given by
 \begin{equation}
     \label{PAG_action}
     \begin{split}
