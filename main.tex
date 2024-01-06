@@ -36,6 +36,10 @@
 \section{Polynomial Affine Gravity}
 \label{sec:PAG}
 
+
+\subsection{Model review}
+\label{subsec: model_review}
+
 The Polynomial Affine Gravity uses the affine connection to mediated 
 gravitational interactions, instead of the metric tensor. To build 
 the action, we decompose the affine connection into its irreducible
@@ -107,6 +111,48 @@ in four dimensions is given by
     + F_4 \mathcal{B}_{\alpha}{}^{\mu}{}_{\beta}\mathcal{B}_{\gamma}{}^{\nu}{}_{\delta}\mathcal{A}_\mu \mathcal{A}_\nu \bigg].
     \end{split}
 \end{equation}
+
+
+\subsection{Building the ansatz}
+
+To build the ansatz of the affine connection $\Gamma$ we compute its Lie derivative 
+$\mathcal{L}_{\xi_j}\ctG{\alpha}{\beta}{\gamma}$ along the Killing vectors $\xi_j$ that 
+generate the desired symmetry, in this case a spherical symmetry. This procedure
+has been extensively cover in four dimensions, see Refs. [] and in lower dimensions,
+see Ref. []
+
+The final affine connection's coefficient in the torsion-free sector are given by
+twelve independent functions defined as follow:
+\begin{equation}
+\begin{aligned}
+    \ctG{t}{t}{t} & = V(t,r) & \ctG{t}{t}{r} & = A(t,r) & \ctG{r}{t}{r} & = W(t,r) & \ctG{\theta}{t}{\theta} & = X(t,r) & \ctG{\phi}{t}{\phi} & = X(t,r)\sin^2\theta \\
+    \ctG{t}{r}{t} & = B(t,r) & \ctG{t}{r}{r} & = Y(t,r) & \ctG{r}{r}{r} & = C(t,r) & \ctG{\theta}{r}{\theta} & = F(t,r) & \ctG{\phi}{r}{\phi} & = F(t,r)\sin^2\theta 
+\end{aligned}
+\end{equation}
+Notice that, under a parametrization of the time coordinate, the first coefficient
+can be set equal to zero, see Ref []. The above ansatz can be simplified even further 
+by imposing additional symmetries on the affine connection. First, lets consider 
+stationary solutions
+\begin{equation}
+    \nabla_{e_t}e_t = e_t\ctG{t}{t}{t} + e_r\ctG{t}{r}{t}
+\end{equation}
+\begin{equation}
+    \nabla_{-e_t}\left(-e_t\right) = -e_t\ctG{t}{t}{t} + e_r\ctG{t}{r}{t}
+\end{equation}
+the consistent condition requires that $\ctG{t}{t}{t} = 0$. Applying the same principle
+to the other basis vectors, then
+\begin{align}
+    \ctG{t}{j}{i} & = 0 & \ctG{i}{t}{j} & = 0
+\end{align}
+where $i$, $j$ are restricted to space index.
+
+Next, we demand an azimuthal angle symmetry, in which case the
+\begin{align}
+    \ctG{\phi}{\phi}{\phi} & = 0 & \ctG{t}{j}{\phi} & = 0 & \ctG{i}{\phi}{j} & = 0
+\end{align}
+
+\subsection{Field equations}
+
 
 
 \section{Solutions}
