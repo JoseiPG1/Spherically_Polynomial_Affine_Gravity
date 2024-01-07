@@ -131,7 +131,9 @@ twelve independent functions defined as follow:
 \begin{equation}
 \begin{aligned}
     \ctG{t}{t}{t} & = V(t,r) & \ctG{t}{t}{r} & = A(t,r) & \ctG{r}{t}{r} & = W(t,r) & \ctG{\theta}{t}{\theta} & = X(t,r) & \ctG{\phi}{t}{\phi} & = X(t,r)\sin^2\theta \\
-    \ctG{t}{r}{t} & = B(t,r) & \ctG{t}{r}{r} & = Y(t,r) & \ctG{r}{r}{r} & = C(t,r) & \ctG{\theta}{r}{\theta} & = F(t,r) & \ctG{\phi}{r}{\phi} & = F(t,r)\sin^2\theta 
+    \ctG{t}{r}{t} & = B(t,r) & \ctG{t}{r}{r} & = Y(t,r) & \ctG{r}{r}{r} & = C(t,r) & \ctG{\theta}{r}{\theta} & = F(t,r) & \ctG{\phi}{r}{\phi} & = F(t,r)\sin^2\theta  \\
+    \ctG{t}{\theta}{\theta} & = Z(t,r) & \ctG{t}{\theta}{\phi} & = -D(t,r)\sin\theta & \ctG{r}{\theta}{\theta} & = G(t,r) & \ctG{r}{\theta}{\phi} & = -H(t,r)\sin\theta & \ctG{\phi}{\theta}{\phi} & = -\cos\theta\sin\theta \\
+    \ctG{t}{\phi}{\theta} & = \frac{D(t,r)}{\sin\theta} & \ctG{t}{\phi}{\phi} & = Z(t,r) & \ctG{r}{\phi}{\theta} & = \frac{H(t,r)}{\sin\theta} & \ctG{r}{\phi}{\phi} & = G(t,r) & \ctG{\theta}{\phi}{\phi} & = \frac{\cos\theta}{\sin \theta}
 \end{aligned}
 \end{equation}
 Notice that, under a parametrization of the time coordinate, the first coefficient
