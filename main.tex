@@ -116,8 +116,46 @@ in four dimensions is given by
 Notice the Riemann curvature and the Ricci tensor are defined with respect to the symmetric part
 of the connection.
 
-Although the action written in Eq. \eqref{PAG_action} is clearly more complicated than
-the Einstein-Hilbert action, there are several features
+The action written in Eq. \eqref{PAG_action} is purely affine and does not required the 
+existence of a metric tensor to be defined. Additionally is polynomial in the connection
+and its covariant derivative, unlike the Einstein-Hilbert action, where there is 
+the factor $\sqrt{-g}$.
+
+As a consequence of the lack of metric tensor in our model, the numbers of terms that can
+go to the action, is limited due to the geometrical constraint coming from its formulation. 
+We call this property, the \textit{rigidity} of the model. 
+
+Moreover, is possible to coupled a scalar field using the \textit{dimensional analysis}
+technique. This provide a non-standard procedure to coupled the \textit{kinetic term}
+of the scalar field to the irreducible fields coming from the antisymmetric part
+of the affine connection and the volume form, without the use of a metric tensor. 
+The effects of a scalar field in polynomial affine gravity has been studied in the
+torsion-free sector in Ref.[].
+
+Even though the manifold is only endowed with an affine connection as its 
+fundamental field, is possible to still obtain descendent metric structures, the
+first comes from its symmetric part, which is the Ricci tensor $\mathcal{R}_{\mu\nu}$,
+coming from the natural contraction of the Riemann curvature
+\begin{equation}
+    \label{ricci}
+    \mathcal{R}_{\mu\nu}\left(\Gamma\right) = \mathcal{R}_{\mu\rho}{}^{\rho}{}_{\nu}\left(\Gamma\right),
+\end{equation}
+whereas, the second comes from the antisymmetric part of the connection, specifically,
+from the contraction of two torsion tensors, defined as
+\begin{equation}
+    \label{poplawski}
+    \mathcal{P}_{\mu\nu} = \left(\B{\alpha}{\beta}{\mu} + \delta^\beta_{[\alpha]\A{\mu}}\right)
+    \left(\B{\beta}{\alpha}{\nu} + \delta^\alpha_{[\beta]\A{\nu}}\right).
+\end{equation}
+Therefore, we can use Eq. \eqref{ricci} or Eq. \eqref{poplawski} to define the notion of 
+distance, and allowing a classification of vectors into time-lie, space-lie or null-like.\footnote{
+This is only valid when the tensors are well behaved, meaning that, they can not be degenerate,
+they must be invertible.}
+
+Interestingly, all coupling constant are dimensionless, which suggest some sort of
+conformal symmetry, at least at a classical level, and also indicates that the
+model is power-counting renormalizable. This, is a necessary condition but not
+sufficient condition to guarantee that the model is renormalizable.
 
 \subsection{Building the ansatz}
 

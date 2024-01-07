@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1704643099 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" "build/main.pdf" "main" 1704643099
-  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" 1704643098 8018 a05b80ed80c5993055708a2bd915fc0d ""
+["pdflatex"] 1704645390 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" "build/main.pdf" "main" 1704645390
+  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" 1704645389 10305 74d995d860cb0fb224030557beae9879 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -31,7 +31,9 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
@@ -96,9 +98,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668543006 2826447 baad09eeaa9874dec94c7a13fcd7df16 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1704643099 1953 4548a63c554d3c907d78b50810e93fc3 "pdflatex"
-  "build/main.out" 1704643099 889 113a07a5f62f6a4a057926e1fe765d8c "pdflatex"
-  "main.tex" 1704643098 8018 a05b80ed80c5993055708a2bd915fc0d ""
+  "build/main.aux" 1704645390 2067 5f293f9214ee140423f3e47bd79aacf4 "pdflatex"
+  "build/main.out" 1704645390 889 113a07a5f62f6a4a057926e1fe765d8c "pdflatex"
+  "main.tex" 1704645389 10305 74d995d860cb0fb224030557beae9879 ""
   (generated)
   "build/main.aux"
   "build/main.log"
