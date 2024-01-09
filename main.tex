@@ -203,9 +203,16 @@ Next, we demand an azimuthal angle symmetry, in which case the
     \ctG{\phi}{\phi}{\phi} & = 0 & \ctG{t}{j}{\phi} & = 0 & \ctG{i}{\phi}{j} & = 0
 \end{align}
 
-Notice for the ansatz, the trace of the Riemann tensor, the antisymmetric Ricci tensor
-is not trivial, meaning that, if we want to preserve the invariance under 
-a projective transformation, 
+Notice that the trace of the Riemann tensor does not vanish, meaning that the 
+connection is not an \textit{equi-affine} connection. In order to ensure this
+condition the antisymmetric part of the Ricci tensor must vanish
+\begin{equation}
+    \frac{\partial A}{\partial t} + \frac{\partial C}{\partial t} + 2\frac{\partial G}{\partial t} = 0,
+\end{equation}
+from which, we can solve for $A\left(t,r\right)$ as
+\begin{equation}
+    A\left(t,r\right) = a(r) - C(t,r) - 2G(t,r)
+\end{equation}
 
 
 \subsection{Field equations}
