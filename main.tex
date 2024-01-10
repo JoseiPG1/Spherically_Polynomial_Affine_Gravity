@@ -164,8 +164,27 @@ meaning that it is a subspace of solutions of of polynomial affine gravity.
 
 To build the ansatz of the affine connection $\Gamma$ we compute its Lie derivative 
 $\mathcal{L}_{\xi_j}\ctG{\alpha}{\beta}{\gamma}$ along the Killing vectors $\xi_j$ that 
-generate the desired symmetry, in this case a spherical symmetry. This procedure
-has been extensively cover in Refs. [] 
+generate the desired symmetry, in this case a spherical symmetry. The Lie derivative
+of a a connection is written as
+\begin{equation}
+    \mathcal{L}_{\xi_i}\ctG{\alpha}{\beta}{\gamma} = \xi_i^\delta\partial_\delta \ctG{\alpha}{\beta}{\gamma}
+    -\ctG{\alpha}{\delta}{\beta}\partial_\delta\xi^\beta + \ctG{\alpha}{\beta}{\delta}\partial_\gamma \xi^\delta
+    + \ctG{\delta}{\beta}{\gamma}\partial_\alpha \xi^\delta + \frac{\partial^2 \xi ^\beta}{\partial x^\alpha \partial x^\gamma},
+\end{equation}
+notice this is the standard definition of a Lie derivative of a tensor $(1,2)$, however, 
+there is an extra term (non-homogeneous), because the affine connection does not transform
+as a tensor. The Killing vectors are
+\begin{align}
+    \xi_1 & = \sigma\left(0, \cos\phi\sin\theta, \frac{\cos\phi\cos\theta}{r}, -\frac{\sin\phi}{r\sin\theta}\right),\\
+    \xi_2 & = \sigma\left(0, \sin\phi\sin\theta, \frac{\sin\phi\cos\theta}{r}, \frac{\cos\phi}{r\sin\theta}\right),\\
+    \xi_3 & = \sigma\left(0 , \cos\theta, -\frac{\sin\theta}{r}, 0\right),
+\end{align}
+where $\sigma$ is defined as 
+\begin{equation}
+    \sigma = \sqrt{1 - \kappa r^2}.
+\end{equation}
+This procedure has been cover in Refs. [], and, an explicit computation
+of every term can be found in Ref.[]
 
 The final affine connection's coefficient in the torsion-free sector are given by
 twelve independent functions defined as follow:
