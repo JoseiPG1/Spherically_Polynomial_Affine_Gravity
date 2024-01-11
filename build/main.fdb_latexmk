@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1704912339 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" "build/main.pdf" "main" 1704912339
-  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" 1704912339 12129 0ce67e99935b9a3dee41ac4f83c16401 ""
+["pdflatex"] 1704959145 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" "build/main.pdf" "main" 1704959145
+  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" 1704959145 12919 087af79bf0d03036d58f8174c9bffca6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -10,6 +10,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -23,6 +24,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -98,11 +100,13 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668543006 2826447 baad09eeaa9874dec94c7a13fcd7df16 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1704912339 2067 d5d894067fa30d6275a9be5d65fa259b "pdflatex"
-  "build/main.out" 1704912339 889 113a07a5f62f6a4a057926e1fe765d8c "pdflatex"
-  "main.tex" 1704912339 12129 0ce67e99935b9a3dee41ac4f83c16401 ""
+  "build/main.aux" 1704959145 2132 dbad8f50fc0eb512a6a4b9dae4493074 "pdflatex"
+  "build/main.out" 1704959145 889 113a07a5f62f6a4a057926e1fe765d8c "pdflatex"
+  "build/main.toc" 1704959145 527 e37b9e76d4cccaf736fac774dc30fb2a "pdflatex"
+  "main.tex" 1704959145 12919 087af79bf0d03036d58f8174c9bffca6 ""
   (generated)
   "build/main.aux"
   "build/main.log"
   "build/main.out"
   "build/main.pdf"
+  "build/main.toc"

@@ -26,7 +26,7 @@
 \begin{document}
 
 \maketitle
-%\tableofcontents
+\tableofcontents
 
 \section{Introduction}
 \label{sec:Introduction}
@@ -36,6 +36,10 @@
 \section{Polynomial Affine Gravity}
 \label{sec:PAG}
 
+In the following subsections, I present a brief introduction
+to the polynomial affine model of gravity, how to build the
+ansatz compatible with the spherical symmetry and the field 
+equations.
 
 \subsection{Model review}
 \label{subsec: model_review}
@@ -186,8 +190,8 @@ where $\sigma$ is defined as
 This procedure has been cover in Refs. [], and, an explicit computation
 of every term can be found in Ref.[]
 
-The final affine connection's coefficient in the torsion-free sector are given by
-twelve independent functions defined as follow:
+The affine connection is completely defined by twelve function, where
+each function has a time and radial dependence as follow
 \begin{equation}
 \begin{aligned}
     \ctG{t}{t}{t} & = V(t,r) & \ctG{t}{t}{r} & = A(t,r) & \ctG{r}{t}{r} & = W(t,r) & \ctG{\theta}{t}{\theta} & = X(t,r) \\
@@ -205,10 +209,10 @@ can be set equal to zero, see Ref []. The above ansatz can be simplified even fu
 by imposing additional symmetries on the affine connection. First, lets consider 
 stationary solutions
 \begin{equation}
-    \nabla_{e_t}e_t = e_t\ctG{t}{t}{t} + e_r\ctG{t}{r}{t}
+    \nabla_{t}e_t = e_t\ctG{t}{t}{t} + e_r\ctG{t}{r}{t}
 \end{equation}
 \begin{equation}
-    \nabla_{-e_t}\left(-e_t\right) = -e_t\ctG{t}{t}{t} + e_r\ctG{t}{r}{t}
+    \nabla_{-t}\left(-e_t\right) = -e_t\ctG{t}{t}{t} + e_r\ctG{t}{r}{t}
 \end{equation}
 the consistent condition requires that $\ctG{t}{t}{t} = 0$. Applying the same principle
 to the other basis vectors, then
@@ -235,6 +239,19 @@ from which, we can solve for $A\left(t,r\right)$ as
 
 
 \subsection{Field equations}
+
+In the torsion-free limit, the only non trivial contribution are
+coming from the terms that are liner in the irreducible fields of 
+the torsion tensor $\mathcal{A}$ and $\mathcal{B}$. In this case,
+the effective action is written as
+\begin{equation}
+    \label{PAG_action}
+    \begin{split}
+    S = \int  \mathrm{d}V^{\alpha \beta \gamma \delta} \bigg[
+    C_1 \mathcal{R}_{\mu\alpha}{}^{\mu}{}_{\nu} \nabla_\beta \mathcal{B}_{\gamma}{}^{\nu}{}_{\delta}
+    + C_2 \mathcal{R}_{\alpha\beta}{}^{\rho}{}_{\rho} \nabla_\sigma \mathcal{B}_{\gamma}{}^{\sigma}{}_{\delta} \bigg].
+    \end{split}
+\end{equation}
 
 
 
