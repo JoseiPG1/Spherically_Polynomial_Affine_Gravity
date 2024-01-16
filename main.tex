@@ -136,26 +136,6 @@ of the affine connection and the volume form, without the use of a metric tensor
 The effects of a scalar field in polynomial affine gravity has been studied in the
 torsion-free sector in Ref.[].
 
-Even though the manifold is only endowed with an affine connection as its 
-fundamental field, is possible to still obtain descendent metric structures, the
-first comes from its symmetric part, which is the Ricci tensor $\mathcal{R}_{\mu\nu}$,
-coming from the natural contraction of the Riemann curvature
-\begin{equation}
-    \label{ricci}
-    \mathcal{R}_{\mu\nu}\left(\Gamma\right) = \mathcal{R}_{\mu\rho}{}^{\rho}{}_{\nu}\left(\Gamma\right),
-\end{equation}
-whereas, the second comes from the antisymmetric part of the connection, specifically,
-from the contraction of two torsion tensors, defined as
-\begin{equation}
-    \label{poplawski}
-    \mathcal{P}_{\mu\nu} = \left(\B{\alpha}{\beta}{\mu} + \delta^\beta_{[\alpha]\A{\mu}}\right)
-    \left(\B{\beta}{\alpha}{\nu} + \delta^\alpha_{[\beta]\A{\nu}}\right).
-\end{equation}
-Therefore, we can use Eq. \eqref{ricci} or Eq. \eqref{poplawski} to define the notion of 
-distance, and allowing a classification of vectors into time-lie, space-lie or null-like.\footnote{
-This is only valid when the tensors are well behaved, meaning that, they can not be degenerate,
-they must be invertible.}
-
 Interestingly, all coupling constant are dimensionless, which suggest some sort of
 conformal symmetry, at least at a classical level, and also indicates that the
 model is power-counting renormalizable. This, is a necessary condition but not
@@ -166,7 +146,7 @@ meaning that it is a subspace of solutions of of polynomial affine gravity.
 
 \subsection{Building the ansatz}
 
-To build the ansatz of the affine connection $\Gamma$ we compute its Lie derivative 
+To build up the ansatz of the affine connection $\Gamma$, we compute its Lie derivative 
 $\mathcal{L}_{\xi_j}\ctG{\alpha}{\beta}{\gamma}$ along the Killing vectors $\xi_j$ that 
 generate the desired symmetry, in this case a spherical symmetry. The Lie derivative
 of a a connection is written as
@@ -190,22 +170,25 @@ where $\sigma$ is defined as
 This procedure has been cover in Refs. [], and, an explicit computation
 of every term can be found in Ref.[]
 
-The affine connection is completely defined by twelve function, where
+The affine connection is completely defined by twelve function\footnote{This is valid
+in the affine geometry without torsion. If we introduce a non trivial torsion field,
+the affine connection is defined by twenty time and radial dependent functions.}, where
 each function has a time and radial dependence as follow
 \begin{equation}
 \begin{aligned}
-    \ctG{t}{t}{t} & = V(t,r) & \ctG{t}{t}{r} & = A(t,r) & \ctG{r}{t}{r} & = W(t,r) & \ctG{\theta}{t}{\theta} & = X(t,r) \\
-    \ctG{\phi}{t}{\phi} & = X(t,r)\sin^2\theta \\
-    \ctG{t}{r}{t} & = B(t,r) & \ctG{t}{r}{r} & = Y(t,r) & \ctG{r}{r}{r} & = C(t,r) & \ctG{\theta}{r}{\theta} & = F(t,r) \\
-    \ctG{\phi}{r}{\phi} & = F(t,r)\sin^2\theta  \\
-    \ctG{t}{\theta}{\theta} & = Z(t,r) & \ctG{t}{\theta}{\phi} & = -D(t,r)\sin\theta & \ctG{r}{\theta}{\theta} & = G(t,r) & \ctG{r}{\theta}{\phi} & = -H(t,r)\sin\theta \\ 
-    \ctG{\phi}{\theta}{\phi} & = -\cos\theta\sin\theta \\
-    \ctG{t}{\phi}{\theta} & = \frac{D(t,r)}{\sin\theta} & \ctG{t}{\phi}{\phi} & = Z(t,r) & \ctG{r}{\phi}{\theta} & = \frac{H(t,r)}{\sin\theta} & \ctG{r}{\phi}{\phi} & = G(t,r) \\
-    \ctG{\theta}{\phi}{\phi} & = \frac{\cos\theta}{\sin \theta}
+    \ctG{t}{t}{t} & = V(t,r) & \ctG{t}{r}{t} & = B(t,r) & \ctG{t}{\theta}{\theta} & = Z(t,r) & \ctG{t}{\phi}{\theta} & = \frac{D(t,r)}{\sin\theta} \\
+    \ctG{t}{t}{r} & = A(t,r) & \ctG{t}{r}{r} & = Y(t,r) & \ctG{t}{\theta}{\phi} & = -D(t,r)\sin\theta & \ctG{t}{\phi}{\phi} & = Z(t,r) \\
+    \ctG{r}{t}{r} & = W(t,r) & \ctG{r}{r}{r} & = C(t,r) & \ctG{r}{\theta}{\theta} & = G(t,r) & \ctG{r}{\phi}{\theta} & = \frac{H(t,r)}{\sin\theta} \\
+    \ctG{\theta}{t}{\theta} & = X(t,r) & \ctG{\theta}{r}{\theta} & = F(t,r) & \ctG{r}{\theta}{\phi} & = -H(t,r)\sin\theta & \ctG{r}{\phi}{\phi} & = G(t,r) \\
+    \ctG{\phi}{t}{\phi} & = X(t,r)\sin^2\theta & \ctG{\phi}{r}{\phi} & = F(t,r)\sin^2\theta & \ctG{\phi}{\theta}{\phi} & = -\cos\theta\sin\theta & \ctG{\theta}{\phi}{\phi} & = \frac{\cos\theta}{\sin \theta}
 \end{aligned}
 \end{equation}
 Notice that, under a parametrization of the time coordinate, the first coefficient
-can be set equal to zero, see Ref []. The above ansatz can be simplified even further 
+can be set equal to zero. This transformation has been extensively use in the 
+frame of cosmology and can also be applied to the spherical case. For more 
+information on this type of transformation, refer to Ref.\cite{Jose_EPJC_2022}.
+
+The above ansatz can be simplified even further 
 by imposing additional symmetries on the affine connection. First, lets consider 
 stationary solutions
 \begin{equation}
@@ -248,19 +231,53 @@ the effective action is written as
     \label{PAG_action}
     \begin{split}
     S = \int  \mathrm{d}V^{\alpha \beta \gamma \delta} \bigg[
-    C_1 \mathcal{R}_{\mu\alpha}{}^{\mu}{}_{\nu} \nabla_\beta \mathcal{B}_{\gamma}{}^{\nu}{}_{\delta}
-    + C_2 \mathcal{R}_{\alpha\beta}{}^{\rho}{}_{\rho} \nabla_\sigma \mathcal{B}_{\gamma}{}^{\sigma}{}_{\delta} \bigg].
+    C_1 \mathcal{R}_{\mu\alpha}{}^{\mu}{}_{\nu} \nabla_\beta \mathcal{B}_{\gamma}{}^{\nu}{}_{\delta}\bigg],
     \end{split}
 \end{equation}
-
+whose variation with respect to the $\mathcal{B}$ leads
+to the field equation
+\begin{equation}
+    \label{feq}
+    \nabla_{[\sigma}\mathcal{R}_{\mu]\nu} = 0,
+\end{equation}
+where the is said that the Ricci tensor is a Codazzi tensor. From
+the field equation written in Eq. \eqref{feq} we distinguish three
+branches of solutions: the first type of solutions requires the
+Ricci tensor to vanish, meaning $\mathcal{R}_{\mu\nu} = 0$; the 
+second type of solution is the subspace of parallel Ricci; which
+implies that $\nabla_{\sigma}\mathcal{R}_{\mu\nu} = 0$; the third
+type is to solve directly the Codazzi tensor.
 
 
 \section{Solutions}
 \label{sec:solutions}
 
+\section{Analysis of the solutions}
+
+Even though the manifold is only endowed with an affine connection as its 
+fundamental field, is possible to still obtain descendent metric structures, the
+first comes from its symmetric part, which is the Ricci tensor $\mathcal{R}_{\mu\nu}$,
+coming from the natural contraction of the Riemann curvature
+\begin{equation}
+    \label{ricci}
+    \mathcal{R}_{\mu\nu}\left(\Gamma\right) = \mathcal{R}_{\mu\rho}{}^{\rho}{}_{\nu}\left(\Gamma\right),
+\end{equation}
+whereas, the second comes from the antisymmetric part of the connection, specifically,
+from the contraction of two torsion tensors, defined as
+\begin{equation}
+    \label{poplawski}
+    \mathcal{P}_{\mu\nu} = \left(\B{\alpha}{\beta}{\mu} + \delta^\beta_{[\alpha]\A{\mu}}\right)
+    \left(\B{\beta}{\alpha}{\nu} + \delta^\alpha_{[\beta]\A{\nu}}\right).
+\end{equation}
+Therefore, we can use Eq. \eqref{ricci} or Eq. \eqref{poplawski} to define the notion of 
+distance, and allowing a classification of vectors into time-lie, space-lie or null-like.\footnote{
+This is only valid when the tensors are well behaved, meaning that, they can not be degenerate,
+they must be invertible.}
 
 \section{Final remarks}
 \label{sec:final_remarks}
 
+\bibliographystyle{unsrt}
+\bibliography{ref}
 
 \end{document}

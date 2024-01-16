@@ -1,6 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1705405713 "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1705405715
-  "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" 1705405706 12919 087af79bf0d03036d58f8174c9bffca6 ""
+["bibtex build/main"] 1705414269 "build/main.aux" "build/main.bbl" "build/main" 1705414270
+  "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
+  "build/main.aux" 1705414270 2427 17b6931d01b994d5886e549c2f67a27b "pdflatex"
+  "ref.bib" 1705414223 501 c011892bfaf02d3e8618c92881ef5838 ""
+  (generated)
+  "build/main.bbl"
+  "build/main.blg"
+["pdflatex"] 1705414269 "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1705414270
+  "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" 1705414265 13873 34376242750e5dc0c1c4c2b4829bcaed ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -100,10 +107,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1673283423 2826433 116ae2890cf1a15fa638e5a98009938b ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1705405714 2132 dbad8f50fc0eb512a6a4b9dae4493074 "pdflatex"
-  "build/main.out" 1705405714 889 113a07a5f62f6a4a057926e1fe765d8c "pdflatex"
-  "build/main.toc" 1705405714 527 e37b9e76d4cccaf736fac774dc30fb2a "pdflatex"
-  "main.tex" 1705405706 12919 087af79bf0d03036d58f8174c9bffca6 ""
+  "build/main.aux" 1705414270 2427 17b6931d01b994d5886e549c2f67a27b "pdflatex"
+  "build/main.bbl" 1705414269 394 df74739e8d63751e8025dbeb7b129cfa "bibtex build/main"
+  "build/main.out" 1705414270 1066 8f466e63d8a902994c32cf14329d2576 "pdflatex"
+  "build/main.toc" 1705414270 608 eb0713d1e25bd70978b4d0ae6067e5ef "pdflatex"
+  "main.tex" 1705414265 13873 34376242750e5dc0c1c4c2b4829bcaed ""
   (generated)
   "build/main.aux"
   "build/main.log"
