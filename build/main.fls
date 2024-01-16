@@ -1,8 +1,8 @@
-PWD /Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically
+PWD /Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex
+INPUT /Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex
 OUTPUT build/main.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
