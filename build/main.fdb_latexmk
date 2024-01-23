@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex build/main"] 1706006873 "build/main.aux" "build/main.bbl" "build/main" 1706016136
+["bibtex build/main"] 1706026836 "build/main.aux" "build/main.bbl" "build/main" 1706026908
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "build/main.aux" 1706016136 2432 22b0a0bfe347e61b5771daa9c6065b45 "pdflatex"
-  "ref.bib" 1705414223 501 c011892bfaf02d3e8618c92881ef5838 ""
+  "build/main.aux" 1706026908 2432 fd9a0dc26ce7d884f67a9296de4fd5b9 "pdflatex"
+  "ref.bib" 1706024667 501 c011892bfaf02d3e8618c92881ef5838 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1706016134 "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1706016136
-  "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" 1706016134 15405 24139c6474b0c9587b2495ea2fc07565 ""
+["pdflatex"] 1706026907 "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" "build/main.pdf" "main" 1706026908
+  "/Users/joseignacioperdiguerogarate/Documents/GitHub/Polynomial_Affine_Gravity_Spherically/main.tex" 1706026907 16244 d2cb393b1195e6dda0df3b5ff8000a7b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -105,13 +105,13 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
-  "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1673283423 2826433 116ae2890cf1a15fa638e5a98009938b ""
+  "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668543006 2826447 baad09eeaa9874dec94c7a13fcd7df16 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1706016136 2432 22b0a0bfe347e61b5771daa9c6065b45 "pdflatex"
-  "build/main.bbl" 1706006873 394 df74739e8d63751e8025dbeb7b129cfa "bibtex build/main"
-  "build/main.out" 1706016136 1066 8f466e63d8a902994c32cf14329d2576 "pdflatex"
-  "build/main.toc" 1706016136 608 5dbd2d2a4c870343b9af717cfd51eb0a "pdflatex"
-  "main.tex" 1706016134 15405 24139c6474b0c9587b2495ea2fc07565 ""
+  "build/main.aux" 1706026908 2432 fd9a0dc26ce7d884f67a9296de4fd5b9 "pdflatex"
+  "build/main.bbl" 1706026836 394 df74739e8d63751e8025dbeb7b129cfa "bibtex build/main"
+  "build/main.out" 1706026908 1066 8f466e63d8a902994c32cf14329d2576 "pdflatex"
+  "build/main.toc" 1706026908 608 5dbd2d2a4c870343b9af717cfd51eb0a "pdflatex"
+  "main.tex" 1706026907 16244 d2cb393b1195e6dda0df3b5ff8000a7b ""
   (generated)
   "build/main.aux"
   "build/main.log"

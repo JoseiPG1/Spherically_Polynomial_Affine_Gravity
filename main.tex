@@ -259,8 +259,12 @@ implies that $\nabla_{\sigma}\mathcal{R}_{\mu\nu} = 0$, whose field
 equation under the ansatz in Eq. \eqref{static_affine_ansatz} can be
 written as follow
 \begin{align}
-    \frac{\partial^2 B}{\partial r^2} + B\left(\frac{\partial C}{\partial r} + 2\frac{\partial G}{\partial r} - \frac{\partial A}{\partial r}\right) -\frac{\partial B}{\partial r}\left(3A - C - 2G\right)
-    + 2AB\left(A - C - 2G\right) & = 0 \\
+    0 & = \frac{\partial^2 B}{\partial r^2} + B\left(\frac{\partial C}{\partial r} + 2\frac{\partial G}{\partial r} - \frac{\partial A}{\partial r}\right) -\frac{\partial B}{\partial r}\left(3A - C - 2G\right)
+    + 2AB\left(A - C - 2G\right)  \\
+    0 & = 2B\frac{\partial G}{\partial r} - A\frac{\partial B}{\partial r} + B\frac{\partial A}{\partial r} - 2GB\left(A + C\right) + 2BG^2 - 2ABC + 2A^2B  \\
+    0 & = 2\frac{\partial^2 G}{\partial r^2} + \frac{\partial^2 A}{\partial r^2} - 2\frac{\partial G}{\partial r}\left(3C - 2G\right) - \frac{\partial C}{\partial r}\left(A + 2G \right) + \frac{\partial A}{\partial r}\left(2A - 3C\right) - 2AC\left(A - C\right) - 4CG\left(G - C\right)\\
+    0 & = 2F\frac{\partial G}{\partial r} + F \frac{\partial A}{\partial r} - G\frac{\partial F}{\partial r} + 2FG^2 + FA\left(A - C\right) - G\left(F\left(A + 3C\right) + 1\right) \\
+    0 & = \frac{\partial^ 2 F}{\partial r^2} + \frac{\partial F}{\partial r}\left(A + C - 2G\right) + F\left(\frac{\partial A}{\partial r} + \frac{\partial C}{\partial r} - 2G\left(A + C\right)\right) - 2G 
 \end{align}
 
 The third type is to solve directly $\nabla_{[\sigma}\mathcal{R}_{\mu]\nu} = 0$,
