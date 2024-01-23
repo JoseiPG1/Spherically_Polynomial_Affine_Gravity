@@ -20,7 +20,7 @@
 \providecommand{\deV}[1]{\mathrm{d}V^{#1}}
 
 
-\title{Spherically solutions of Polynomial Affine Gravity in the torsion-free sector}
+\title{Spherically and static solutions of Polynomial Affine Gravity in the torsion-free sector}
 \author{Jos\'e Perdiguero G\'arate}
 
 \begin{document}
@@ -208,16 +208,18 @@ Next, we demand an azimuthal angle symmetry, in which case the
     \ctG{\phi}{\phi}{\phi} & = 0 & \ctG{t}{j}{\phi} & = 0 & \ctG{i}{\phi}{j} & = 0
 \end{align}
 
-Notice that the trace of the Riemann tensor does not vanish, meaning that the 
-connection is not an \textit{equi-affine} connection. In order to ensure this
-condition the antisymmetric part of the Ricci tensor must vanish
+Finally, we restrict the affine coefficient to be time independent (static). The final form
+of the ansatz is written as
 \begin{equation}
-    \frac{\partial A}{\partial t} + \frac{\partial C}{\partial t} + 2\frac{\partial G}{\partial t} = 0,
-\end{equation}
-from which, we can solve for $A\left(t,r\right)$ as
-\begin{equation}
-    A\left(t,r\right) = a(r) - C(t,r) - 2G(t,r)
-\end{equation}
+    \label{static_affine_ansatz}
+    \begin{aligned}
+        \ctG{t}{t}{r} & = A(r) & \ctG{t}{r}{t} & = B(r) & \ctG{r}{r}{r} & = C(r) \\
+        \ctG{\theta}{r}{\theta} & = F(r) & \ctG{\phi}{r}{\phi} & = F(r)\sin^2\theta & \ctG{r}{\theta}{\theta} & = G(r) \\ 
+        \ctG{\phi}{\theta}{\phi} & = -\cos\theta\sin\theta & \ctG{r}{\phi}{\phi} & = G(r) & \ctG{\theta}{\phi}{\phi} & = \frac{\cos\theta}{\sin \theta} 
+    \end{aligned}
+    \end{equation}
+Notice that, originally we have twelve time and radial dependence, which was
+reduced to only five radial dependent functions. 
 
 
 \subsection{Field equations}
@@ -242,10 +244,31 @@ to the field equation
 where is said that the Ricci tensor is a Codazzi tensor. From
 the field equation written in Eq. \eqref{feq} we distinguish three
 branches of solutions: the first type of solutions requires the
-Ricci tensor to vanish, meaning $\mathcal{R}_{\mu\nu} = 0$; the 
-second type of solution is the subspace of parallel Ricci; which
-implies that $\nabla_{\sigma}\mathcal{R}_{\mu\nu} = 0$; the third
-type is to solve directly $\nabla_{[\sigma}\mathcal{R}_{\mu]\nu} = 0$.
+Ricci tensor to vanish, meaning $\mathcal{R}_{\mu\nu} = 0$, which
+written using Eq. \eqref{static_affine_ansatz} leads to
+\begin{align}
+    \frac{\partial B}{\partial r} + B \left(2G + C - A\right) & = 0, \\
+    \frac{\partial A}{\partial r} + 2\frac{\partial G}{\partial r} + A^2 + 2G^2 - AC - 2CG = 0, \\
+    \frac{\partial F}{\partial r} + F\left(A + C\right) + 1 & = 0, 
+\end{align}
+where we have three first order differential equations for five
+unknown functions. Therefore, the system is underdetermined.
+
+The second type of solution is the subspace of parallel Ricci, which
+implies that $\nabla_{\sigma}\mathcal{R}_{\mu\nu} = 0$, whose field 
+equation under the ansatz in Eq. \eqref{static_affine_ansatz} can be
+written as follow
+
+The third type is to solve directly $\nabla_{[\sigma}\mathcal{R}_{\mu]\nu} = 0$,
+which is known as \textit{harmonic curvature}. Using Eq. \eqref{static_affine_ansatz}, 
+the \textit{harmonic curvature} is defined as
+\begin{align}
+    \frac{\partial^2 B}{\partial r^2} + B\left(\frac{\partial C}{\partial r} -2\frac{\partial A}{\partial r}\right) - \frac{\partial B}{\partial r}\left(2A - C - 2G\right)  - 2GB\left(A - C + G\right)  & = 0, \\
+    \frac{\partial^2 F}{\partial r^2}  + F\left(\frac{\partial C}{\partial r} - 2\frac{\partial G}{\partial r}\right) + \frac{\partial F}{\partial r}\left(A + C - G\right) +
+    F\left(G \left(C - A -2G\right) - A\left(A - C\right)\right) - G & = 0,
+\end{align}
+where there are only two independent equations for five unknown 
+functions. Therefore, the system is underdetermined.
 
 
 \section{Solutions}
