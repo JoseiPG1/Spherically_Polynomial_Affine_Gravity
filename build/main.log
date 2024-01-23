@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  23 JAN 2024 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  23 JAN 2024 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -410,12 +410,12 @@ Overfull \hbox (21.32678pt too wide) detected at line 185
  []
 
 [3] [4]
-Overfull \hbox (97.50658pt too wide) detected at line 268
+Overfull \hbox (101.95099pt too wide) detected at line 267
 []
  []
 
 
-Overfull \hbox (44.3059pt too wide) detected at line 277
+Overfull \hbox (44.3059pt too wide) detected at line 278
 []
  []
 
@@ -424,21 +424,21 @@ Overfull \hbox (44.3059pt too wide) detected at line 277
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8F466E63D8A902994C32CF14329D2576;1066.
+(rerunfilecheck)             Checksum: 0798CA3FF63636452D5842D55B60A5E8;1192.
  ) 
 Here is how much of TeX's memory you used:
- 9945 strings out of 478268
- 155020 string characters out of 5846346
- 461105 words of memory out of 5000000
- 27971 multiletter control sequences out of 15000+600000
+ 9948 strings out of 478268
+ 155062 string characters out of 5846346
+ 461144 words of memory out of 5000000
+ 27973 multiletter control sequences out of 15000+600000
  477468 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,85p,388b,338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,16n,85p,390b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on build/main.pdf (6 pages, 204153 bytes).
+Output written on build/main.pdf (6 pages, 204741 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
