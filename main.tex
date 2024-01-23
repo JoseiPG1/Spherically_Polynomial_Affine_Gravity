@@ -258,6 +258,10 @@ The second type of solution is the subspace of parallel Ricci, which
 implies that $\nabla_{\sigma}\mathcal{R}_{\mu\nu} = 0$, whose field 
 equation under the ansatz in Eq. \eqref{static_affine_ansatz} can be
 written as follow
+\begin{align}
+    \frac{\partial^2 B}{\partial r^2} + B\left(\frac{\partial C}{\partial r} + 2\frac{\partial G}{\partial r} - \frac{\partial A}{\partial r}\right) -\frac{\partial B}{\partial r}\left(3A - C - 2G\right)
+    + 2AB\left(A - C - 2G\right) & = 0 \\
+\end{align}
 
 The third type is to solve directly $\nabla_{[\sigma}\mathcal{R}_{\mu]\nu} = 0$,
 which is known as \textit{harmonic curvature}. Using Eq. \eqref{static_affine_ansatz}, 
@@ -274,27 +278,26 @@ functions. Therefore, the system is underdetermined.
 \section{Solutions}
 \label{sec:solutions}
 
+
+
+
 \section{Analysis of the solutions}
 
 Even though the manifold is only endowed with an affine connection as its 
-fundamental field, is possible to still obtain descendent metric structures, the
-first comes from its symmetric part, which is the Ricci tensor $\mathcal{R}_{\mu\nu}$,
-coming from the natural contraction of the Riemann curvature
+fundamental field, is possible to still obtain descendent metric structures,
+\footnote{ This is only valid when proposed tensor is non degenerate.} 
+the first comes from the symmetric part of $\hat{\Gamma}_{\alpha}{}^{\beta}{}_{\gamma}$, 
+which is the Ricci tensor $\mathcal{R}_{\mu\nu}$, coming from the natural 
+contraction of the Riemann curvature
 \begin{equation}
     \label{ricci}
     \mathcal{R}_{\mu\nu}\left(\Gamma\right) = \mathcal{R}_{\mu\rho}{}^{\rho}{}_{\nu}\left(\Gamma\right),
 \end{equation}
-whereas, the second comes from the antisymmetric part of the connection, specifically,
-from the contraction of two torsion tensors, defined as
-\begin{equation}
-    \label{poplawski}
-    \mathcal{P}_{\mu\nu} = \left(\B{\alpha}{\beta}{\mu} + \delta^\beta_{[\alpha]\A{\mu}}\right)
-    \left(\B{\beta}{\alpha}{\nu} + \delta^\alpha_{[\beta]\A{\nu}}\right).
-\end{equation}
-Therefore, we can use Eq. \eqref{ricci} or Eq. \eqref{poplawski} to define the notion of 
-distance, and allowing a classification of vectors into time-lie, space-lie or null-like.\footnote{
-This is only valid when the tensors are well behaved, meaning that, they can not be degenerate,
-they must be invertible.}
+there is a second descendent metric tensor coming from the antisymmetric 
+part of the affine connection, however in this paper, since we restricted
+our selves to analyze the limit of the torsion-free sector, we are not
+going to exclude this case. For more information on 
+
 
 \section{Final remarks}
 \label{sec:final_remarks}
