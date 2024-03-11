@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex build/main"] 1710166250 "build/main.aux" "build/main.bbl" "build/main" 1710166251
+["bibtex build/main"] 1710167328 "build/main.aux" "build/main.bbl" "build/main" 1710167447
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "build/main.aux" 1710166251 2991 28fbbdbcedf398347484c63238cfddc2 "pdflatex"
+  "build/main.aux" 1710167447 2991 3694003b18ac2bbfc8bcd145922560e6 "pdflatex"
   "ref.bib" 1705414223 501 c011892bfaf02d3e8618c92881ef5838 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1710166250 "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1710166251
-  "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" 1710166248 19791 34a2924bc96958bdcbc1682837333be9 ""
+["pdflatex"] 1710167446 "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1710167447
+  "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" 1710167446 20204 54917ba950a8c006ee0f51ba798f4ff7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -108,11 +108,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1673283423 2826433 116ae2890cf1a15fa638e5a98009938b ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1710166251 2991 28fbbdbcedf398347484c63238cfddc2 "pdflatex"
-  "build/main.bbl" 1710166250 394 df74739e8d63751e8025dbeb7b129cfa "bibtex build/main"
-  "build/main.out" 1710166251 1444 5013083e1dbe04a9db86212dbb247022 "pdflatex"
-  "build/main.toc" 1710166251 789 b73cc86578465026282ab2fcdf78a853 "pdflatex"
-  "main.tex" 1710166248 19791 34a2924bc96958bdcbc1682837333be9 ""
+  "build/main.aux" 1710167447 2991 3694003b18ac2bbfc8bcd145922560e6 "pdflatex"
+  "build/main.bbl" 1710167328 394 df74739e8d63751e8025dbeb7b129cfa "bibtex build/main"
+  "build/main.out" 1710167447 1444 5013083e1dbe04a9db86212dbb247022 "pdflatex"
+  "build/main.toc" 1710167447 789 978b829307fd669d11e2cc4787b57a7e "pdflatex"
+  "main.tex" 1710167446 20204 54917ba950a8c006ee0f51ba798f4ff7 ""
   (generated)
   "build/main.aux"
   "build/main.log"
