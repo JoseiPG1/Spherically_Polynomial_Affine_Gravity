@@ -324,10 +324,27 @@ in terms of the components of the metric tensor as follow
 The above relations ensures that $k_{\mu\nu}$ is also parallel. Now, it is necessary
 to solve Eq. \eqref{ricci_k}, 
 \begin{align}
-\frac{bc(a')^2 - 2abca'' + aca'b' - 2aba'c'}{4ab^2 c} & = \Lambda a \\
-\frac{\left(bc^2(a')^2 - 2abc^2a'' + ac^2a'b' + 2a^2cb'c' + 2a^2b(c')^2 - 4a^2bcc''\right)}{4a^2bc^2} = \Lambda b \\
-\frac{4ab^2 - 2abc'' - c'\left(ba' - ab'\right)}{4ab^2} & = \Lambda c
+\frac{bc(a')^2 - 2abca'' + aca'b' - 2aba'c'}{4ab^2 c} & = \Lambda a, \label{ricci_k_eq1} \\
+\frac{\left(bc^2(a')^2 - 2abc^2a'' + ac^2a'b' + 2a^2cb'c' + 2a^2b(c')^2 - 4a^2bcc''\right)}{4a^2bc^2} & = \Lambda b, \label{ricci_k_eq2} \\
+\frac{4ab^2 - 2abc'' - c'\left(ba' - ab'\right)}{4ab^2} & = \Lambda c. \label{ricci_k_eq3}
 \end{align}
+The above system of differential equations admits a parametrized solution in terms
+of the $c(r)$ function. To see this, we find an expression for $a''$ from Eqs. \eqref{ricci_k_eq1}
+and \eqref{ricci_k_eq2} respectively
+\begin{align}
+    a'' & = \frac{1}{2}\left(-4\Lambda ab + \frac{(a')^2}{a} + a'\left(\frac{b'}{b} - \frac{2c'}{c}\right)\right), \\
+    a'' & = \frac{1}{2}\left(\frac{(a')^2}{a} + \frac{a'b'}{b} + 2a\left(-2\Lambda b + \frac{b'c'}{bc} + \frac{(c')^2 - 2cc''}{c^2}\right)\right),
+\end{align}
+by comparison, one can obtain the following expression
+\begin{equation}
+    a'c' + a\left(\frac{b'c'}{b} + \frac{(c')^2}{c} - 2c''\right) = 0,
+\end{equation}
+the above expression can be written as a total derivative, from which is
+possible to find an expression for $b(r)$ as
+\begin{equation}
+    b(r) = \frac{2e^{b_0}(c')^2}{ac},
+\end{equation}
+where $b_0$ is an integration constant.
 
 \subsection{Ricci as a codazzi tensor}
 

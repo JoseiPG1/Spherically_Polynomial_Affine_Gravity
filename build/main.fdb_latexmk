@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex build/main"] 1710149577 "build/main.aux" "build/main.bbl" "build/main" 1710149579
+["bibtex build/main"] 1710165750 "build/main.aux" "build/main.bbl" "build/main" 1710165909
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "build/main.aux" 1710149578 2766 300cdd620eb4afe85efe73c0972d5c0d "pdflatex"
+  "build/main.aux" 1710165909 2991 5dde10eb9a54625ae3a3316b26f0e6be "pdflatex"
   "ref.bib" 1705414223 501 c011892bfaf02d3e8618c92881ef5838 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1710149577 "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1710149579
-  "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" 1710149574 18385 924d8c5e5a8c3dda6f92ce1ca8cd7710 ""
+["pdflatex"] 1710165908 "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" "build/main.pdf" "main" 1710165909
+  "/Users/joseperdiguero/Documents/GitHub/Spherically_Polynomial_Affine_Gravity/main.tex" 1710165907 19346 8dd086702e41fc4af9e7bcfac738ab3d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -40,6 +40,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1248133631 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
@@ -107,11 +108,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1673283423 2826433 116ae2890cf1a15fa638e5a98009938b ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1710149578 2766 300cdd620eb4afe85efe73c0972d5c0d "pdflatex"
-  "build/main.bbl" 1710149577 394 df74739e8d63751e8025dbeb7b129cfa "bibtex build/main"
-  "build/main.out" 1710149578 1444 5013083e1dbe04a9db86212dbb247022 "pdflatex"
-  "build/main.toc" 1710149578 789 3f03b7445562e3314c991a18cf454883 "pdflatex"
-  "main.tex" 1710149574 18385 924d8c5e5a8c3dda6f92ce1ca8cd7710 ""
+  "build/main.aux" 1710165909 2991 5dde10eb9a54625ae3a3316b26f0e6be "pdflatex"
+  "build/main.bbl" 1710165750 394 df74739e8d63751e8025dbeb7b129cfa "bibtex build/main"
+  "build/main.out" 1710165909 1444 5013083e1dbe04a9db86212dbb247022 "pdflatex"
+  "build/main.toc" 1710165909 789 b73cc86578465026282ab2fcdf78a853 "pdflatex"
+  "main.tex" 1710165907 19346 8dd086702e41fc4af9e7bcfac738ab3d ""
   (generated)
   "build/main.aux"
   "build/main.log"

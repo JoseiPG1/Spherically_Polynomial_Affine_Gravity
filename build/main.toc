@@ -5,6 +5,6 @@
 \contentsline {subsection}{\numberline {2.3}Field equations}{4}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Solutions}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Parallel Ricci solutions}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Ricci as a codazzi tensor}{6}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Analysis of the solutions}{6}{section.4}%
+\contentsline {subsection}{\numberline {3.2}Ricci as a codazzi tensor}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Analysis of the solutions}{7}{section.4}%
 \contentsline {section}{\numberline {5}Final remarks}{7}{section.5}%
