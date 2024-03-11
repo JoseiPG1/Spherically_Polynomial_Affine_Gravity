@@ -283,11 +283,53 @@ functions. Therefore, the system is underdetermined.
 \section{Solutions}
 \label{sec:solutions}
 
-\section{Dynamical system}
-\label{sec:dynamical_system}
+\subsection{Parallel Ricci solutions}
 
+The subspace of solutions knowns as parallel Ricci solutions, requires a vanishing covariant
+derivative of the Ricci tensor
+\begin{equation}
+    \nabla_\alpha \mathcal{R}_{\mu\nu} = 0.
+\end{equation}
+The above differential equation accepts a non trivial solution in the form of
+\begin{equation}
+    \label{ricci_k}
+    \mathcal{R}_{\mu\nu} = \Lambda k_{\mu\nu},
+\end{equation}
+where $\Lambda$ is an integration constant and $k_{\mu\nu}$ is a second rank two tensor which
+is symmetric in its lower index. The most general symmetric rank two tensor compatible
+with the spherical symmetry can be built using the same method which was used to build
+the affine connection
+\begin{align}
+    k_{tt} & = a(r), & k_{rr} & = b(r), & k_{\theta\theta} & = c(r),
+\end{align}
+or as a line element
+\begin{equation}
+a(r)\mathrm{d}t^2 + b(r)\mathrm{d}r^2 + c(r)\mathrm{d}\Omega^2,
+\end{equation}
+where $\mathrm{d}\Omega^2$ is the standar area of the 2-sphere.
 
+In order to have a consistent solution, the covariant
+derivative of $k_{\mu\nu}$ must be trivial. 
+\begin{align}
+    -2Aa + a' & = 0, & -Aa - Bb  & = 0, & -2Cb + b' & = 0, \\
+    -Fb - Gc  & = 0, & -2Gc + c' & = 0.
+\end{align}
+The above differential equations can be solved simultaneously allowing us to find
+a relation between the connection coefficientes $A(r)$, $B(r)$, $C(r)$, $F(r)$ and $G(r)$
+in terms of the components of the metric tensor as follow
+\begin{align}
+    A(r) & = \frac{a'}{2a}, & B(r) & =  -\frac{a'}{2b}, & C(r) & = \frac{b'}{2b}, \\
+    G(r) & = \frac{-c'}{2c}, & F(r) & = -\frac{c'}{2b}.
+\end{align}
+The above relations ensures that $k_{\mu\nu}$ is also parallel. Now, it is necessary
+to solve Eq. \eqref{ricci_k}, 
+\begin{align}
+\frac{bc(a')^2 - 2abca'' + aca'b' - 2aba'c'}{4ab^2 c} & = \Lambda a \\
+\frac{\left(bc^2(a')^2 - 2abc^2a'' + ac^2a'b' + 2a^2cb'c' + 2a^2b(c')^2 - 4a^2bcc''\right)}{4a^2bc^2} = \Lambda b \\
+\frac{4ab^2 - 2abc'' - c'\left(ba' - ab'\right)}{4ab^2} & = \Lambda c
+\end{align}
 
+\subsection{Ricci as a codazzi tensor}
 
 \section{Analysis of the solutions}
 
