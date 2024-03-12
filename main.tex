@@ -374,9 +374,19 @@ Under the spherical ansatz there are two differential equations to solved
 for the five unknown affine functions. The system of differential equations
 can be written in a more convenient form
 \begin{align}
-    \frac{\partial^2 B}{\partial r^2} + B\left(\frac{\partial C}{\partial r} -2\frac{\partial A}{\partial r}\right) - \frac{\partial B}{\partial r}\left(2A - C - 2G\right)  - 2GB\left(A - C + G\right)  & = 0, \\
-    \frac{\partial^2 F}{\partial r^2}  + F\left(\frac{\partial C}{\partial r} - 2\frac{\partial G}{\partial r}\right) + \frac{\partial F}{\partial r}\left(A + C - G\right) +
-    F\left(G \left(C - A -2G\right) - A\left(A - C\right)\right) - G & = 0,
+    B'' + B'\left(C + 2G - 2A\right) + B\left(2G\left(C - A - G\right) - 2A' + C'\right) & = 0 \\
+    F'' + F'\left(A + C - G\right) + F\left(C' - 2G^2 + \left(A + G\right)\left(C - A\right)\right) & = G
+\end{align}
+the above system resembles a damped harmonic oscillator subject to an external force,
+the above systems can be written as 
+\begin{align}
+    B'' + B'\gamma_B + B\omega^2_B & = 0 \\
+    F'' + F'\gamma_F + F\omega^2_F & = G
+\end{align}
+where
+\begin{align}
+    \gamma_B & = C + 2G - 2A & \omega^2_B & = 2G\left(C - A - G\right) - 2A' + C' \\
+    \gamma_F & = A + C - G & \omega^2_F & = C' - 2G^2 + \left(A + G\right)\left(C - A\right)
 \end{align}
 
 \section{Analysis of the solutions}
