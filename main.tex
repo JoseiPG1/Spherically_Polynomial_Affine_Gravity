@@ -374,20 +374,24 @@ Under the spherical ansatz there are two differential equations to solved
 for the five unknown affine functions. The system of differential equations
 can be written in a more convenient form
 \begin{align}
-    B'' + B'\left(C + 2G - 2A\right) + B\left(2G\left(C - A - G\right) - 2A' + C'\right) & = 0 \\
-    F'' + F'\left(A + C - G\right) + F\left(C' - 2G^2 + \left(A + G\right)\left(C - A\right)\right) & = G
+    B'' + B'\left(C + 2G - 2A\right) + B\left(2G\left(C - A - G\right) - 2A' + C'\right) & = 0, \\
+    F'' + F'\left(A + C - G\right) + F\left(C' - 2G^2 + \left(A + G\right)\left(C - A\right)\right) & = G,
 \end{align}
 the above system resembles a damped harmonic oscillator subject to an external force,
 the above systems can be written as 
 \begin{align}
-    B'' + B'\gamma_B + B\omega^2_B & = 0 \\
-    F'' + F'\gamma_F + F\omega^2_F & = G
+    B'' + B'\gamma_B + B\omega^2_B & = 0, \\
+    F'' + F'\gamma_F + F\omega^2_F & = G,
 \end{align}
-where
+where $\gamma_j$ stands for the dissipation factor and $\omega_j$ is the frequency,
+both factors are defined as follow
 \begin{align}
-    \gamma_B & = C + 2G - 2A & \omega^2_B & = 2G\left(C - A - G\right) - 2A' + C' \\
-    \gamma_F & = A + C - G & \omega^2_F & = C' - 2G^2 + \left(A + G\right)\left(C - A\right)
+    \gamma_B & = C + 2G - 2A, & \omega^2_B & = 2G\left(C - A - G\right) - 2A' + C', \\
+    \gamma_F & = A + C - G, & \omega^2_F & = C' - 2G^2 + \left(A + G\right)\left(C - A\right).
 \end{align}
+It is worth to emphasis that the mentioned factors are radial dependent. The system can not
+be solved analytically for the most general case, however, it is possible to find an exact
+solution if one restrict the factors.
 
 \section{Analysis of the solutions}
 
