@@ -280,7 +280,7 @@ where there are only two independent equations for five unknown
 functions. Therefore, the system is underdetermined.
 
 
-\section{Solutions}
+\section{Spherical solutions}
 \label{sec:solutions}
 
 In this section we explore the space and subspaces of solutions to the field
@@ -393,25 +393,33 @@ It is worth to emphasis that the mentioned factors are radial dependent. The sys
 be solved analytically for the most general case, however, it is possible to find an exact
 solution if one restrict the factors.
 
-Typically, the factors $\gamma_j$ and $\omega_j$ are constante. In this study, we can
+Typically, the factors $\gamma_j$ and $\omega_j$ are constante. In this study, we proposed
+relax the constant condition subject a constraint
+\begin{align}
+    \gamma_b(r) & = b_ir^{i}, & \omega_b(r) & = \omega_f(r), & \gamma_f(r) & = f_jr^{j}.
+\end{align}
+The above three conditions lead to a system of differential equations
+\begin{align}
+    C + 2G - 2A & = b_ir^{i}, \\
+    \left(A - G\right)\left(A - X\right) + 2G' & = A',\\
+    A + C - G & = f_jr^{j}.
+\end{align}
+The above system can be solved analytically by
+\begin{align}
+    A(r) & = \frac{1}{3}\left(\frac{6i}{r} + 2r^{j}f_j + r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right) \\
+    G(r) & = \frac{1}{3}\left(\frac{6i}{r} + r^{j}f_j + 2r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right) \\
+    C(r) & = \frac{1}{3}\left(2r^{j}f_j + r^{i}b_i\right)
+\end{align}
 
 \section{Analysis of the solutions}
 
-Even though the manifold is only endowed with an affine connection as its 
-fundamental field, is possible to still obtain descendent metric structures,
-\footnote{ This is only valid when proposed tensor is non degenerate.} 
-the first comes from the symmetric part of $\hat{\Gamma}_{\alpha}{}^{\beta}{}_{\gamma}$, 
-which is the Ricci tensor $\mathcal{R}_{\mu\nu}$, coming from the natural 
-contraction of the Riemann curvature
-\begin{equation}
-    \label{ricci}
-    \mathcal{R}_{\mu\nu}\left(\Gamma\right) = \mathcal{R}_{\mu\rho}{}^{\rho}{}_{\nu}\left(\Gamma\right),
-\end{equation}
-there is a second descendent metric tensor coming from the antisymmetric 
-part of the affine connection, however in this paper, since we restricted
-our selves to analyze the limit of the torsion-free sector, we are not
-going to exclude this case. For more information on 
+\section{Auto parallel curves and numerical solutions}
 
+\subsection{Formulation problem}
+
+\subsection{Numerical solution using PINNs}
+
+\section{Dynamical systems from the harmonic curvature}
 
 \section{Final remarks}
 \label{sec:final_remarks}
