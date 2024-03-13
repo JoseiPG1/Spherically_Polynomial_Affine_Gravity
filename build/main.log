@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  13 MAR 2024 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.15)  13 MAR 2024 18:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,7 +419,7 @@ Overfull \hbox (44.3059pt too wide) detected at line 268
 []
  []
 
-[5] [6] [7] (build/main.bbl [8]) [9] (build/main.aux)
+[5] [6] [7] [8] (build/main.bbl) [9] (build/main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -427,18 +427,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5AFE4E7A43F2584AEA7F1AE849473818;2597.
  ) 
 Here is how much of TeX's memory you used:
- 9992 strings out of 478268
- 155649 string characters out of 5846346
+ 9998 strings out of 478268
+ 155727 string characters out of 5846346
  464273 words of memory out of 5000000
  27979 multiletter control sequences out of 15000+600000
  477468 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,85p,413b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,16n,85p,413b,343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on build/main.pdf (9 pages, 227333 bytes).
+Output written on build/main.pdf (9 pages, 231555 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 91 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
