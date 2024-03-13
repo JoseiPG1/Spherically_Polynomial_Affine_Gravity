@@ -7,18 +7,8 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 
-\allowdisplaybreaks
 
-%Useful definitions
-\providecommand{\Rie}[3]{\mathcal{R}_{#1}{}^{ #2}{}_{#3}}
 \providecommand{\ctG}[3]{\Gamma_{#1}{}^{ #2}{}_{#3}}
-\providecommand{\ctg}[3]{\gamma_{#1}{}^{ #2}{}_{#3}}
-\providecommand{\B}[3]{\mathcal{B}_{#1}{}^{ #2}{}_{#3}}
-\providecommand{\P}[3]{\mathcal{P}_{#1}{}^{ #2}{}_{#3}}
-\providecommand{\A}[1]{\mathcal{A}_{#1}}
-\providecommand{\Ri}[1]{\mathcal{R}_{#1}}
-\providecommand{\deV}[1]{\mathrm{d}V^{#1}}
-
 
 \title{Spherically and static solutions of Polynomial Affine Gravity in the torsion-free sector}
 \author{Jos\'e Perdiguero G\'arate}
@@ -52,7 +42,7 @@ fields
 \begin{aligned}
     \label{affine_connection}
     \hat{\Gamma}_{\alpha}{}^{\beta}{}_{\gamma} & = \hat{\Gamma}_{(\alpha}{}^{\beta}{}_{\gamma)} +  \hat{\Gamma}_{[\alpha}{}^{\beta}{}_{\gamma]},  \\
-    & = \ctG{\alpha}{\beta}{\gamma} + \B{\alpha}{\beta}{\gamma} + \delta^{\beta}_{[\gamma}\A{\alpha]},
+    & = \Gamma_{\alpha}{}^{\beta}{}_{\gamma} + \mathcal{B}_{\alpha}{}^{\beta}{}_{\gamma} + \delta^{\beta}_{[\gamma}\mathcal{A}_{\alpha]},
 \end{aligned}
 \end{equation}
 where the first term $\Gamma$ stands for the symmetric part and 
@@ -380,8 +370,8 @@ can be written in a more convenient form
 the above system resembles a damped harmonic oscillator subject to an external force,
 the above systems can be written as 
 \begin{align}
-    B'' + B'\gamma_b + B\omega^2_b & = 0, \\
-    F'' + F'\gamma_f + F\omega^2_f & = G,
+    B'' + B'\gamma_b + B\omega^2_b & = 0, \label{eq_B}\\
+    F'' + F'\gamma_f + F\omega^2_f & = G, \label{eq_F}
 \end{align}
 where $\gamma_j$ stands for the dissipation factor and $\omega_j$ is the frequency,
 both factors are defined as follow
@@ -406,10 +396,14 @@ The above three conditions lead to a system of differential equations
 \end{align}
 The above system can be solved analytically by
 \begin{align}
-    A(r) & = \frac{1}{3}\left(\frac{6i}{r} + 2r^{j}f_j + r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right) \\
-    G(r) & = \frac{1}{3}\left(\frac{6i}{r} + r^{j}f_j + 2r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right) \\
-    C(r) & = \frac{1}{3}\left(2r^{j}f_j + r^{i}b_i\right)
+    A(r) & = \frac{1}{3}\left(\frac{6i}{r} + 2r^{j}f_j + r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right), \\
+    G(r) & = \frac{1}{3}\left(\frac{6i}{r} + r^{j}f_j + 2r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right), \\
+    C(r) & = \frac{1}{3}\left(2r^{j}f_j + r^{i}b_i\right).
 \end{align}
+Replacing the above definitions of the affine functions in Eqs. \eqref{eq_B} and \eqref{eq_F} leads to
+
+
+
 
 \section{Analysis of the solutions}
 
