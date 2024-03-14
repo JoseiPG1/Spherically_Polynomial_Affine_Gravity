@@ -412,7 +412,7 @@ the above systems admits an analytical solution
     B(r) & = e^{-\frac{r}{6}\left(3\gamma_b + \alpha\right)}\left(B_1 + e^{\frac{r\alpha}{3}}B_2\right) \\
     F(r) & = e^{-\frac{r}{6}\left(3\gamma_f + \beta\right)}\left(F_1 + e^{\frac{r\beta}{3}}F_2\right) - \frac{3}{2\left(2\gamma_b + \gamma_f\right)}
 \end{align}
-where $\alpha$ and $\alpha$ are constant 
+where $B_1$, $B_2$, $F_1$ and $F_2$ are integration constant and $\alpha$ and $\beta$ are defined as 
 \begin{align}
     \alpha & = \sqrt{41\gamma_b^2 + 32\gamma_b\gamma_f + 8\gamma_f^2} \\
     \beta  & = \sqrt{32\gamma_b^2 + 32\gamma_b\gamma_f + 17\gamma_f^2} 
@@ -421,6 +421,15 @@ where $\alpha$ and $\alpha$ are constant
 
 
 \section{Analysis of the solutions}
+
+Building the emergent metric in the space of solutions, for the special case $ i = j = 0$
+\begin{align}
+    \mathcal{R}_{tt} & = \frac{1}{6}e^{\frac{-r}{6}\left(3\gamma_b + \alpha\right)}\left(\left(5\gamma_b + 4\gamma_f\right)
+    \left(B_1 +e^{\frac{r\alpha}{3}}B_2\right) + \alpha\left(e^{\frac{r\alpha}{3}}B_2 - B_1\right)\right) \\
+    \mathcal{R}_{rr} & = \frac{2}{9}\left(\gamma_b - \gamma_f\right)\left(2\gamma_b + \gamma_f\right)\\
+    \mathcal{R}_{\theta\theta} & = \frac{1}{6}\left(e^{\frac{-r}{6}\left(3\gamma_b + \beta\right)}\left(F_1 + e^{\frac{r\beta}{3}}F_2\right)\left(4\gamma_b + 5\gamma_f\right) - 
+    \beta\left(F_1 e^{\frac{-r}{6}\left(3\gamma_b + \beta\right)} + F_2 e^{\frac{r}{6}\left(-3\gamma_b + \beta\right)}\right) + \frac{18\gamma_b}{2\gamma_b + \gamma_f} - 6\right)
+\end{align}
 
 \section{Auto parallel curves and numerical solutions}
 
