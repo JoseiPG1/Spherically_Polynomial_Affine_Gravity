@@ -422,8 +422,21 @@ where $B_1$, $B_2$, $F_1$ and $F_2$ are integration constant and $\alpha$ and $\
     \beta  & = \sqrt{32\gamma_b^2 + 32\gamma_b\gamma_f + 17\gamma_f^2} 
 \end{align}
 
-The second case where is possible to find an analytical solution is $i = j = -1$
-
+The second case where is possible to find an analytical solution is $i = j = -1$ the
+Eqs. \eqref{eq_B} and \eqref{eq_F} are converted to
+\begin{align}
+    B'' + B'\left(\frac{9\gamma_b}{r}\right) - B\left(\frac{8\gamma_b^2 + 2\left(-15 + \gamma_f\right)\left(-6 + \gamma_f\right) + \gamma_b\left(-75 + 8\gamma_b\right)}{r^2}\right) & = 0, \\
+    F'' + F'\left(\frac{\gamma_f}{r}\right) - F\left(\frac{8\gamma_b^2 + 2\left(-15 + \gamma_f\right)\left(-6 + \gamma_f\right) + \gamma_b\left(-75 + 8\gamma_b\right)}{9r}\right) & = \frac{2\gamma_b - \gamma_f - 6}{3r}.
+\end{align}
+The above differential equations can be solved analytically by the following functions
+\begin{align}
+    B(r) & = r^{\frac{1}{6}\left(3 - 3\gamma_b - \delta\right)}B_1 + r^{\frac{1}{6}\left(3 - 3\gamma_b + \delta\right)}B_2 ,\\
+    F(r) & = r^{\frac{1}{6}\left(3 - 3\gamma_f - \delta\right)}F_1 + r^{\frac{1}{6}\left(3 - 3\gamma_b + \delta\right)}F_2 - \frac{3r\left(2\gamma_b + \gamma_f - 6\right)}{180 + 8\gamma_b^2 + \gamma_f\left(2\gamma_f -51\right) + \gamma_b\left(8\gamma_f - 75\right)} 
+\end{align}
+where $\delta$ is a constant defined as
+\begin{equation}
+    \delta = \sqrt{729 + 41\gamma_b^2 + 8\gamma_f\left(\gamma_f - 21\right) + \gamma_b\left(32\gamma_f - 318\right)}
+\end{equation}
 
 
 \section{Analysis of the solutions}
