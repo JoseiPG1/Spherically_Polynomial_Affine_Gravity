@@ -460,7 +460,23 @@ notice this space is not quit exactly a Anti de Sitter/de Sitter space. The comp
 and $\mathcal{R}_{\theta\theta}$ has the desire structure, and by fixing the constants signs we get what we expect. However,
 $\mathcal{R}_{rr}(r \to \infty)$ leads to a constant, because of the radial absence dependence. 
 
-The second emergent metric tensor comes from the special case $i = j = -1$.
+The second emergent metric tensor comes from the special case $i = j = -1$. The components of 
+the Ricci tensor are
+\begin{align}
+    \mathcal{R}_{tt} & = \frac{1}{6}r^{\frac{1}{6}\left(-3 - 3\gamma_b -\delta\right)}\left(B_2r^{\frac{\delta}{3}} - B_1\right)\delta, \\
+    \mathcal{R}_{rr} & = \frac{162 + 4\gamma_b^2 - 2\gamma_f \left(12 + \gamma_f\right) - \gamma_b\left(57 + 2\gamma_f\right)}{9r^2}, \\
+    \mathcal{R}_{\theta\theta} & = \frac{162 + 4\gamma_b^2 - 2\gamma_f \left(12 + \gamma_f\right) - \gamma_b\left(57 + 2\gamma_f\right)}{180 + 8\gamma_b^2 + \gamma_f \left(2\gamma_f - 51\right) + \gamma_b\left(8\gamma_f - 75\right)} 
+    + \frac{\delta}{6} \left(F_2r^{\frac{1}{6}\left(-3 - 3\gamma_f + \delta\right)} - F_1r^{\frac{1}{6}\left(-3 - 3\gamma_f - \delta\right)}\right).
+\end{align}
+By taking the limit when $r \to \infty$
+\begin{align}
+    \mathcal{R}_{tt}(r \to \infty) & = 0, (\pm)\infty \\
+    \mathcal{R}_{rr}(r \to \infty) & = 0 \\
+    \mathcal{R}_{\theta\theta}(r \to \infty) & = 0,(\pm)\infty
+\end{align}
+it is possible to recover the classical space of solutions of Anti de Sistter/de Sitter, however, there
+is room for a different configurations. Unlike the first case, where is not possible to recover the well known
+space of solutions, here it is possible.
 
 \section{Auto parallel curves and numerical solutions}
 
