@@ -360,7 +360,7 @@ Affine Gravity.
 
 \subsection{Ricci as a codazzi tensor}
 
-Under the spherical ansatz there are two differential equations to solved
+Under the spherical ansatz there are two differential equations to be solved
 for the five unknown affine functions. The system of differential equations
 can be written in a more convenient form
 \begin{align}
@@ -396,22 +396,28 @@ The above three conditions lead to a system of differential equations
 \end{align}
 The above system can be solved analytically by
 \begin{align}
-    A(r) & = \frac{1}{3}\left(\frac{6i}{r} + 2r^{j}f_j + r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right), \\
-    G(r) & = \frac{1}{3}\left(\frac{6i}{r} + r^{j}f_j + 2r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right), \\
-    C(r) & = \frac{1}{3}\left(2r^{j}f_j + r^{i}b_i\right).
+    A(r) & = \frac{1}{3}\left(\frac{6i}{r} + 2r^{j}f_j + r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right), \label{HC_A} \\
+    G(r) & = \frac{1}{3}\left(\frac{6i}{r} + r^{j}f_j + 2r^{i}b_i + \frac{6\left(j - i\right)f_j}{r\left(f_j - r^{i - j}b_i\right)}\right), \label{HC_G}\\
+    C(r) & = \frac{1}{3}\left(2r^{j}f_j + r^{i}b_i\right) \label{HC_C}.
 \end{align}
 
 Although it is possible to solve the field equation for the $B(r)$ function under the
 assumption of $i = j$, the differential equation for $F(r)$ can only be solved analytically
 for two specific cases $i = j = 0$ and $i = j = -1$. 
 
-The simples case is given by $i = j = 0$, for which, Eqs. \eqref{eq_B} and \eqref{eq_F} take the form
-of
+The simples case is given by $i = j = 0$, for which, the functions Eqs. \eqref{HC_A}, \eqref{HC_G}
+and \eqref{HC_C} translate into 
 \begin{align}
-    B'' + B'\gamma_b - \frac{2}{9}B\left(2\gamma_b + \gamma_f\right)^2 & = 0, \\ 
-    F'' + F'\gamma_f - \frac{1}{9}\left(2\gamma_b + \gamma_f\right)\left(3 + 2F\left(2\gamma_b + \gamma_f\right)\right) & = 0.
+    A(r) & = \frac{1}{3}\left(\gamma_b + 2\gamma_f\right), & 
+    G(r) & = \frac{1}{3}\left(2\gamma_b + \gamma_f\right), &
+    C(r) & = \frac{1}{3}\left(\gamma_b + 2\gamma_f\right).
 \end{align}
-the above systems admits an analytical solution
+Then the Eqs. \eqref{eq_B} and \eqref{eq_F} take the form of
+\begin{align}
+    B'' + B'\gamma_b - \frac{2}{9}B\left(\gamma_b + \gamma_f\right)^2 & = 0, \\ 
+    F'' + F'\gamma_f - \frac{2}{9}F\left(\gamma_b + \gamma_f\right)^2  & = \frac{2\gamma_b + \gamma_f}{3}.
+\end{align}
+The above systems admits an analytical solution
 \begin{align}
     B(r) & = e^{-\frac{r}{6}\left(3\gamma_b + \alpha\right)}\left(B_1 + e^{\frac{r\alpha}{3}}B_2\right) \\
     F(r) & = e^{-\frac{r}{6}\left(3\gamma_f + \beta\right)}\left(F_1 + e^{\frac{r\beta}{3}}F_2\right) - \frac{3}{2\left(2\gamma_b + \gamma_f\right)}
